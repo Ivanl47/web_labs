@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    display: block;
+}
+
+body {
+    margin-left: 240px;
+    margin-top: 62px;
+    font-family: "Avenir", sans-serif;
+}
+
+button {
+    border: 0;
+}
