@@ -1,0 +1,10 @@
+@import "./header.css";
+@import "./globals.css";
+@import "./hero.css";
+@import "./block.css";
+/* @import "./normalize.min.css";
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+} */
