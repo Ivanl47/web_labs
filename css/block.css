@@ -49,10 +49,34 @@
     align-content: center ;
 }
 
-    .apper article {
+.text__header {
+    display: block;
+    width: 405px;
+    color: #212353;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+    display: center;
+}
+
+.text__paragraph {
+    width: 584px;
+    color: var(--1, #4B5D68);
+    text-align: center;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%; /* 28.8px */
+    display: center;
+}
+
+    /* .apper article {
         height: 10%;
         border-right:0px solid transparent;
         border-left:20px solid transparent;
-        border-radius: 3000000000px;
+        border-radius: 50px;
         border-bottom: 100px solid rgb(17, 255, 4);
-    }
+    } */

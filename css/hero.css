@@ -35,7 +35,7 @@
     background: var(--3, #9C69E2);
     color: #FFF;
     text-align: center;
-    font-family: Avenir;
+    font-family: 'Avenir';
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -44,6 +44,6 @@
 
     .hero img{
         position: absolute;
-        right: 9%;
+        right: 15%;
         top: 28%;
     }
