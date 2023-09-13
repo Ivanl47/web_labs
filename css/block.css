@@ -51,7 +51,6 @@
 
 .text__header {
     display: block;
-    width: 405px;
     color: #212353;
     text-align: center;
     font-family: Helvetica;
@@ -63,7 +62,6 @@
 }
 
 .text__paragraph {
-    width: 584px;
     color: var(--1, #4B5D68);
     text-align: center;
     font-family: Avenir;

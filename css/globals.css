@@ -7,11 +7,14 @@ li {
 }
 
 body {
-    margin-left: 240px;
-    margin-top: 62px;
+    margin: 0;
     font-family: "Avenir", sans-serif;
 }
 
 button {
     border: 0;
+}
+
+.header, .hero, .block, .information {
+    margin-left: 240px;
 }

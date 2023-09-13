@@ -2,6 +2,8 @@
 @import "./globals.css";
 @import "./hero.css";
 @import "./block.css";
+@import "./information.css";
+@import "./footer.css";
 /* @import "./normalize.min.css";
 @media (max-width: 600px) {
     body {
