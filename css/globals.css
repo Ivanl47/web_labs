@@ -15,6 +15,12 @@ button {
     border: 0;
 }
 
-.header, .hero, .block, .information {
+.header, .hero, .block, .information, .features {
     margin-left: 240px;
+}
+
+@media screen and (max-width:320px) {
+    .header, .hero, .block, .information, .features  {
+        margin-left: 0;
+    }
 }
