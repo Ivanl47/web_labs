@@ -10,7 +10,7 @@
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
-    line-height: 110%; /* 88px */
+    line-height: 110%; 
     margin-bottom: 50px;
 }
 
@@ -23,10 +23,44 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%; 
     margin-bottom: 50px;
 }
 
+/* .hero__buttom{
+    width: 170px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--3, #9C69E2);
+    background-color: #9C69E2;
+    text-align: center;
+    font-family: 'Avenir';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+            -225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%
+    );
+    background-clip: border-box;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+
+} */
+
+/* @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}  */
 .hero__buttom{
     width: 170px;
     height: 60px;
@@ -39,11 +73,65 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%;
+    animation-name: pulsing-buttom;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes pulsing-buttom {
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+
+
 
     .hero img{
         position: absolute;
         right: 15%;
         top: 28%;
+    }
+
+    @media screen and (max-width: 768px) {
+        .hero img {
+            display: none;
+        }
+
+        .hero__header{
+            max-width: 320px;
+            font-size: 40px;
+            margin-left: 20px;
+
+        }
+
+        .hero__paragraph{
+            margin-left: 20px;
+
+            max-width: 320px;
+            font-size: 15px;
+        }
+
+        .hero__buttom{
+            width: 320px;
+            height: 60px;
+            align-items: center;
+            margin:0;
+        }
+    }
+
+    @media screen and (min-width:2500px) {
+        .hero img {
+            right:38% ;
+            top:11% ;
+        }
+        
     }
